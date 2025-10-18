@@ -562,7 +562,7 @@ void updateBall() {
     }
 
     if (allDestroyed && !showLevelUp) { // first detect level up
-        level++;
+
         showLevelUp = true;
         levelUpTimer = 0.0f;
         PlaySound(TEXT("D:/UNIVERSITY/4.2 Semester/Graphics_Lab/DX-Ball-Game-Project/levelup.wav"), NULL, SND_ASYNC | SND_FILENAME);
